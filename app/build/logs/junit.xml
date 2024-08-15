@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="10" assertions="0" errors="10" warnings="0" failures="0" skipped="0" time="0.008020">
+    <testsuite name="Project Test Suite" tests="10" assertions="0" errors="10" warnings="0" failures="0" skipped="0" time="0.008020">
+      <testsuite name="App\Tests\Controller\GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" tests="10" assertions="0" errors="10" warnings="0" failures="0" skipped="0" time="0.008020">
+        <testcase name="testCreateGuestSuccess" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="32" assertions="0" time="0.007894">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testCreateGuestSuccess
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testCreateGuestValidationError" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="49" assertions="0" time="0.000035">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testCreateGuestValidationError
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testCreateGuestUniqueConstraintViolation" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="64" assertions="0" time="0.000017">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testCreateGuestUniqueConstraintViolation
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testUpdateGuestSuccess" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="81" assertions="0" time="0.000012">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testUpdateGuestSuccess
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testUpdateGuestNotFound" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="98" assertions="0" time="0.000011">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testUpdateGuestNotFound
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testDeleteGuestSuccess" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="115" assertions="0" time="0.000010">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testDeleteGuestSuccess
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testDeleteGuestNotFound" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="126" assertions="0" time="0.000010">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testDeleteGuestNotFound
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testGetGuestSuccess" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="137" assertions="0" time="0.000009">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testGetGuestSuccess
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testGetGuestNotFound" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="155" assertions="0" time="0.000011">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testGetGuestNotFound
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+        <testcase name="testGetAllGuests" class="App\Tests\Controller\GuestControllerTest" classname="App.Tests.Controller.GuestControllerTest" file="/var/www/html/tests/Controller/GuestControllerTest.php" line="166" assertions="0" time="0.000009">
+          <error type="LogicException">App\Tests\Controller\GuestControllerTest::testGetAllGuests
+LogicException: You must set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel in phpunit.xml / phpunit.xml.dist or override the "App\Tests\Controller\GuestControllerTest::createKernel()" or "App\Tests\Controller\GuestControllerTest::getKernelClass()" method.
+
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:49
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:105
+/var/www/html/vendor/symfony/framework-bundle/Test/KernelTestCase.php:66
+/var/www/html/vendor/symfony/framework-bundle/Test/WebTestCase.php:44
+/var/www/html/tests/Controller/GuestControllerTest.php:25
+/var/www/html/vendor/phpunit/phpunit/phpunit:107</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

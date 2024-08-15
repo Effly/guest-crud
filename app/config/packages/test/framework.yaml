@@ -1,0 +1,6 @@
+framework:
+  test: true
+  session:
+    handler_id: session.handler.mock_file
+  php_errors:
+    log: true
